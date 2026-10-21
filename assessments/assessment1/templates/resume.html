@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Resume</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #66d0f3;
+        }
+
+        .resume {
+            background: white;
+            padding: 30px;
+            max-width: 800px;
+            margin: auto;
+            box-shadow: 0 0 10px gray;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        h2 {
+            color: #444;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
+        }
+
+        nav {
+            margin-bottom: 20px;
+        }
+
+        nav a {
+            margin-right: 20px;
+            text-decoration: none;
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="resume">
+
+    <nav>
+        <a href="{{ url_for('home') }}">Home</a>
+        <a href="{{ url_for('about') }}">About</a>
+    </nav>
+    <center>
+    <h1>MURAKADA LAYATRI</h1>
+
+    <p>
+        <b>Email:</b> layatrimurakada@gmail.com
+    </p>
+
+    <p>
+        <b>Phone:</b> +91 6309727512
+    </p>
+    </center>
+
+    <h2>Career Objective</h2>
+    <p>
+        MCA student specializing in Artificial Intelligence and
+        Data Science, seeking an opportunity to apply my programming
+        and technical skills in a professional environment.
+    </p>
+
+    <h2>Education</h2>
+
+    <p>
+        <b>Sri Padmavati Mahila University,Tirupati</b><br>
+        MCA - Computer Applications<br>
+        CGPA: 7.75
+    </p>
+
+    <p>
+        <b>Andhra University</b><br>
+        B.Sc(MPC)<br>
+        CGPA: 8.75
+    </p>
+
+
+    <p>
+        <b>Sri Chaitanya Junior College</b><br>
+        Intermediate<br>
+        GPA: 9.02
+    </p>
+
+    <p>
+        <b>Z.P High School</b><br>
+        Secondary Education<br>
+        GPA: 9.5
+    </p>
+
+    <h2>Technical Skills</h2>
+
+    <ul>
+        <li>Python</li>
+        <li>HTML & CSS</li>
+        <li>SQL</li>
+        <li>Flask</li>
+        <li>Machine Learning</li>
+    </ul>
+
+    <h2>Projects</h2>
+
+    <ul>
+        <li>Online Hostel Information Management Database System </li>
+        <li>AI Chatbot for ICET Rank and College Prediction using Agentic AI </li>
+    </ul>
+
+    <h2>Internship</h2>
+
+    <p>
+        AI Research Intern  DST-CURIE-AI Centre, SPMVV        
+    </p>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block title %}
+     <title>Project - SNM</title>
+{% endblock %}
+
+{% block content %}
+<h3 style="color: rgb(196, 84, 136);">Meghana will always be silent</h3>
+{% if n %}
+     {% for Student in n %}
+         <p>{{Student.id}} - {{Student.name}}</p>
+     {% endfor %}
+{% endif %}
+{% endblock %}

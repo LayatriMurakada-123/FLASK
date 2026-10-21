@@ -1,0 +1,73 @@
+	
+	===================
+	|   DAY1 - FLASK  |
+	===================
+
+Web Development & Flask
+=========================
+
+Web Development:
+=================
+It refers to the overall process of creating, building and maintain web applications or websitesit encompasses everything 
+from plain text web pages to complex networks, e-commerce platformand real time web applications
+
+Broadly divided into two disciplines
+	-> Frontend Development (Client Side) -> Focus on visual presentations, layouts and user interactivity using 
+	   	HTML5,CSS3,JS (React) UI
+	-> Backend Development (Server Side) ->  It focuses on core bussiness logic, user authentication, database
+		operations and APIs using Language such as Python,Java,Node,PHP
+
+(i) Full Stack Development:
+===========================
+It refers to the practice of working both on the frontend and backend of a web application. A FullStack Developer
+posses the skills required to design a complete web application from scratch -> managing responsive user interfaces 
+to managing server logic,writing database queries and deploying applications to production servers
+
+Client-Server Architecture
+===========================
+It is the fundamentals building block of modern web infrastructure
+
+                               HTTP Request (GET,POST)
+Clien(Browser)  -----------------------------------------------------> Web Server
+HTML,CSS,JS		<----------- HTML/JSON (200)						   Flask Application
+User interface														   Bussiness Logic/DB
+(Chrome,Safari,Edge) 												   (WSGI/ngnix/Gunicorn)
+																		Pythonanywhere, AWS
+
+Client -> Initialises requests for data or resources
+
+Server -> Waits for incoming requests, process the request (fetching the rows from database) and returns
+the required response back to the Client
+
+Internet /Intranet :
+====================
+Internet -> Global Interconnected network of billions of computers/Electronic devices. it relies on TCP/IP to 
+			routepackages of data across physical cables,Fiber Optics,Wireless 
+
+Web Server -> Hardware/Software 
+Hardware -> physical computer / Virtual Computer connected to Internet
+
+Software -> A Server program such as (WSGI Servers like Gunicorn) that accepts incoming requests from client 
+browsers and get back with response
+
+HTTP  vs  HTTPS (Leverage SSL/TLS)
+
+Flask --> pip install flask
+
+Request Response Cycle
+
+
+
+
+
+
+15/10/2026
+----------------
+
+Hash values are hexa decimal encrypted values -- (0-9)/(A-F)
+
+
+UTF-8
+1byte = 8
+alphabetical characters space
+
